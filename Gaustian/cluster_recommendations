@@ -1,0 +1,579 @@
+{
+    "0": [
+        {
+            "product_id": "B00KBA6PKS",
+            "num_reviews": 51,
+            "average_score": 4.784313725490196
+        },
+        {
+            "product_id": "B00IH487I8",
+            "num_reviews": 48,
+            "average_score": 4.770833333333333
+        },
+        {
+            "product_id": "B00GCMGWMA",
+            "num_reviews": 103,
+            "average_score": 4.766990291262136
+        },
+        {
+            "product_id": "B009B43W74",
+            "num_reviews": 52,
+            "average_score": 4.730769230769231
+        },
+        {
+            "product_id": "B00GM4N3MU",
+            "num_reviews": 51,
+            "average_score": 4.7254901960784315
+        },
+        {
+            "product_id": "B00LLWDUDK",
+            "num_reviews": 76,
+            "average_score": 4.723684210526316
+        },
+        {
+            "product_id": "B00GA644CI",
+            "num_reviews": 83,
+            "average_score": 4.710843373493976
+        },
+        {
+            "product_id": "B00IA6QWP8",
+            "num_reviews": 66,
+            "average_score": 4.696969696969697
+        },
+        {
+            "product_id": "B00JDLFHRI",
+            "num_reviews": 69,
+            "average_score": 4.695652173913044
+        },
+        {
+            "product_id": "B00KCE1ISM",
+            "num_reviews": 50,
+            "average_score": 4.66
+        },
+        {
+            "product_id": "B00CYKHQW4",
+            "num_reviews": 76,
+            "average_score": 4.644736842105263
+        },
+        {
+            "product_id": "B00JIWJ78C",
+            "num_reviews": 58,
+            "average_score": 4.637931034482759
+        },
+        {
+            "product_id": "B00BCA1YHK",
+            "num_reviews": 67,
+            "average_score": 4.626865671641791
+        },
+        {
+            "product_id": "B00IGAFDUI",
+            "num_reviews": 47,
+            "average_score": 4.617021276595745
+        },
+        {
+            "product_id": "B008O0QUU2",
+            "num_reviews": 65,
+            "average_score": 4.615384615384615
+        },
+        {
+            "product_id": "B00BKK6FLC",
+            "num_reviews": 46,
+            "average_score": 4.608695652173913
+        },
+        {
+            "product_id": "B00ENHU966",
+            "num_reviews": 51,
+            "average_score": 4.607843137254902
+        },
+        {
+            "product_id": "B00KHHOUKW",
+            "num_reviews": 56,
+            "average_score": 4.607142857142857
+        },
+        {
+            "product_id": "B00L1MSEZO",
+            "num_reviews": 62,
+            "average_score": 4.596774193548387
+        },
+        {
+            "product_id": "B00EXTVSHI",
+            "num_reviews": 59,
+            "average_score": 4.593220338983051
+        },
+        {
+            "product_id": "B00EZV2GZW",
+            "num_reviews": 49,
+            "average_score": 4.591836734693878
+        },
+        {
+            "product_id": "B00GT8442W",
+            "num_reviews": 48,
+            "average_score": 4.583333333333333
+        },
+        {
+            "product_id": "B00DPAFPQG",
+            "num_reviews": 51,
+            "average_score": 4.568627450980392
+        },
+        {
+            "product_id": "B00BPDMVDU",
+            "num_reviews": 53,
+            "average_score": 4.566037735849057
+        },
+        {
+            "product_id": "B00JIV2YA6",
+            "num_reviews": 57,
+            "average_score": 4.56140350877193
+        }
+    ],
+    "1": [
+        {
+            "product_id": "B005DOK8NW",
+            "num_reviews": 86,
+            "average_score": 4.709302325581396
+        },
+        {
+            "product_id": "B007R5YDYA",
+            "num_reviews": 306,
+            "average_score": 4.7026143790849675
+        },
+        {
+            "product_id": "B008GGH5HQ",
+            "num_reviews": 47,
+            "average_score": 4.659574468085107
+        },
+        {
+            "product_id": "B00BGIQS1A",
+            "num_reviews": 55,
+            "average_score": 4.509090909090909
+        },
+        {
+            "product_id": "B00825BZUY",
+            "num_reviews": 107,
+            "average_score": 4.4672897196261685
+        },
+        {
+            "product_id": "B006GWO5WK",
+            "num_reviews": 257,
+            "average_score": 4.463035019455253
+        },
+        {
+            "product_id": "B00902SFC4",
+            "num_reviews": 59,
+            "average_score": 4.4576271186440675
+        },
+        {
+            "product_id": "B008GGH4FY",
+            "num_reviews": 46,
+            "average_score": 4.413043478260869
+        },
+        {
+            "product_id": "B005DOKIYG",
+            "num_reviews": 55,
+            "average_score": 4.290909090909091
+        },
+        {
+            "product_id": "B006GWO5NE",
+            "num_reviews": 57,
+            "average_score": 4.2631578947368425
+        }
+    ],
+    "2": [
+        {
+            "product_id": "B007R5YDYA",
+            "num_reviews": 75,
+            "average_score": 4.746666666666667
+        },
+        {
+            "product_id": "B006GWO5WK",
+            "num_reviews": 164,
+            "average_score": 4.652439024390244
+        },
+        {
+            "product_id": "B0079UAT0A",
+            "num_reviews": 90,
+            "average_score": 4.6
+        },
+        {
+            "product_id": "B009NHWVIA",
+            "num_reviews": 73,
+            "average_score": 4.5479452054794525
+        },
+        {
+            "product_id": "B00825BZUY",
+            "num_reviews": 82,
+            "average_score": 4.439024390243903
+        },
+        {
+            "product_id": "B00902SFC4",
+            "num_reviews": 220,
+            "average_score": 4.3545454545454545
+        },
+        {
+            "product_id": "B005OOKNP4",
+            "num_reviews": 46,
+            "average_score": 4.326086956521739
+        },
+        {
+            "product_id": "B00DR0C96S",
+            "num_reviews": 58,
+            "average_score": 4.258620689655173
+        },
+        {
+            "product_id": "B00DQZQPNM",
+            "num_reviews": 50,
+            "average_score": 4.2
+        },
+        {
+            "product_id": "B00HPM1FZ0",
+            "num_reviews": 48,
+            "average_score": 3.9583333333333335
+        },
+        {
+            "product_id": "B00DQZOD8Q",
+            "num_reviews": 65,
+            "average_score": 3.9076923076923076
+        }
+    ],
+    "3": [
+        {
+            "product_id": "B00DI8TUHU",
+            "num_reviews": 99,
+            "average_score": 4.898989898989899
+        },
+        {
+            "product_id": "B00F9AJXYA",
+            "num_reviews": 87,
+            "average_score": 4.850574712643678
+        },
+        {
+            "product_id": "B00HGEPEWC",
+            "num_reviews": 81,
+            "average_score": 4.827160493827161
+        },
+        {
+            "product_id": "B00BVDRHN8",
+            "num_reviews": 116,
+            "average_score": 4.818965517241379
+        },
+        {
+            "product_id": "B0092MT3Y6",
+            "num_reviews": 53,
+            "average_score": 4.811320754716981
+        },
+        {
+            "product_id": "B008DMGD0S",
+            "num_reviews": 87,
+            "average_score": 4.666666666666667
+        },
+        {
+            "product_id": "B00CG6R4ZK",
+            "num_reviews": 63,
+            "average_score": 4.634920634920635
+        },
+        {
+            "product_id": "B00DG8ZYA4",
+            "num_reviews": 76,
+            "average_score": 4.631578947368421
+        },
+        {
+            "product_id": "B007BEDR4Y",
+            "num_reviews": 48,
+            "average_score": 4.625
+        },
+        {
+            "product_id": "B006GWO5NE",
+            "num_reviews": 86,
+            "average_score": 4.604651162790698
+        },
+        {
+            "product_id": "B00CYKHQW4",
+            "num_reviews": 88,
+            "average_score": 4.590909090909091
+        },
+        {
+            "product_id": "B00AR6ZB60",
+            "num_reviews": 95,
+            "average_score": 4.568421052631579
+        },
+        {
+            "product_id": "B00825BZUY",
+            "num_reviews": 63,
+            "average_score": 4.523809523809524
+        },
+        {
+            "product_id": "B008RDCBEA",
+            "num_reviews": 57,
+            "average_score": 4.491228070175438
+        },
+        {
+            "product_id": "B006BGZJJ4",
+            "num_reviews": 68,
+            "average_score": 4.455882352941177
+        },
+        {
+            "product_id": "B00H0V069M",
+            "num_reviews": 107,
+            "average_score": 4.420560747663552
+        },
+        {
+            "product_id": "B006GWO5WK",
+            "num_reviews": 431,
+            "average_score": 4.4153132250580045
+        },
+        {
+            "product_id": "B00GKKU0OK",
+            "num_reviews": 63,
+            "average_score": 4.412698412698413
+        },
+        {
+            "product_id": "B00BZPJRQW",
+            "num_reviews": 63,
+            "average_score": 4.412698412698413
+        },
+        {
+            "product_id": "B00CQYAW3I",
+            "num_reviews": 46,
+            "average_score": 4.391304347826087
+        },
+        {
+            "product_id": "B00J6DKWSM",
+            "num_reviews": 101,
+            "average_score": 4.376237623762377
+        },
+        {
+            "product_id": "B00DA7MHUQ",
+            "num_reviews": 48,
+            "average_score": 4.375
+        },
+        {
+            "product_id": "B0079UAT0A",
+            "num_reviews": 51,
+            "average_score": 4.372549019607843
+        },
+        {
+            "product_id": "B005DOK8NW",
+            "num_reviews": 108,
+            "average_score": 4.361111111111111
+        },
+        {
+            "product_id": "B00HVKCMQC",
+            "num_reviews": 158,
+            "average_score": 4.360759493670886
+        }
+    ],
+    "4": [
+        {
+            "product_id": "B00BSX4U04",
+            "num_reviews": 67,
+            "average_score": 5.0
+        },
+        {
+            "product_id": "B00BTIDOO6",
+            "num_reviews": 61,
+            "average_score": 5.0
+        },
+        {
+            "product_id": "B00BTIDW4S",
+            "num_reviews": 88,
+            "average_score": 5.0
+        },
+        {
+            "product_id": "B00BTIDXVU",
+            "num_reviews": 68,
+            "average_score": 5.0
+        },
+        {
+            "product_id": "B00EYMXM2I",
+            "num_reviews": 51,
+            "average_score": 5.0
+        },
+        {
+            "product_id": "B00BT0J8ZS",
+            "num_reviews": 67,
+            "average_score": 5.0
+        },
+        {
+            "product_id": "B00IYOJOB0",
+            "num_reviews": 51,
+            "average_score": 5.0
+        },
+        {
+            "product_id": "B006GWO5WK",
+            "num_reviews": 83,
+            "average_score": 5.0
+        },
+        {
+            "product_id": "B00H0V069M",
+            "num_reviews": 47,
+            "average_score": 5.0
+        },
+        {
+            "product_id": "B00F9AJXYA",
+            "num_reviews": 62,
+            "average_score": 5.0
+        },
+        {
+            "product_id": "B00DI8TUHU",
+            "num_reviews": 60,
+            "average_score": 5.0
+        },
+        {
+            "product_id": "B00HGEPEWC",
+            "num_reviews": 57,
+            "average_score": 5.0
+        },
+        {
+            "product_id": "B00KF0URBM",
+            "num_reviews": 46,
+            "average_score": 5.0
+        },
+        {
+            "product_id": "B00AR6ZB60",
+            "num_reviews": 49,
+            "average_score": 5.0
+        },
+        {
+            "product_id": "B00BVDRHN8",
+            "num_reviews": 59,
+            "average_score": 5.0
+        },
+        {
+            "product_id": "B00JDYC5OI",
+            "num_reviews": 55,
+            "average_score": 5.0
+        },
+        {
+            "product_id": "B00GA644CI",
+            "num_reviews": 48,
+            "average_score": 5.0
+        }
+    ],
+    "5": [
+        {
+            "product_id": "B00FIROTZ2",
+            "num_reviews": 56,
+            "average_score": 5.0
+        },
+        {
+            "product_id": "B00DRN5X72",
+            "num_reviews": 47,
+            "average_score": 5.0
+        },
+        {
+            "product_id": "B00LMTLV24",
+            "num_reviews": 49,
+            "average_score": 5.0
+        },
+        {
+            "product_id": "B00KVN6HH6",
+            "num_reviews": 53,
+            "average_score": 5.0
+        },
+        {
+            "product_id": "B00GYU9NBC",
+            "num_reviews": 48,
+            "average_score": 5.0
+        },
+        {
+            "product_id": "B00GN8K6CU",
+            "num_reviews": 48,
+            "average_score": 5.0
+        },
+        {
+            "product_id": "B00HGEPEWC",
+            "num_reviews": 57,
+            "average_score": 4.982456140350878
+        },
+        {
+            "product_id": "B00BFMDOPA",
+            "num_reviews": 54,
+            "average_score": 4.981481481481482
+        },
+        {
+            "product_id": "B00KNGAX0I",
+            "num_reviews": 49,
+            "average_score": 4.979591836734694
+        },
+        {
+            "product_id": "B00J47HAUS",
+            "num_reviews": 48,
+            "average_score": 4.979166666666667
+        },
+        {
+            "product_id": "B00DI8TUHU",
+            "num_reviews": 47,
+            "average_score": 4.9787234042553195
+        },
+        {
+            "product_id": "B00DNWKAIY",
+            "num_reviews": 47,
+            "average_score": 4.9787234042553195
+        },
+        {
+            "product_id": "B00ASH7SJG",
+            "num_reviews": 62,
+            "average_score": 4.967741935483871
+        },
+        {
+            "product_id": "B00GKBIRVM",
+            "num_reviews": 60,
+            "average_score": 4.966666666666667
+        },
+        {
+            "product_id": "B00BPDMVDU",
+            "num_reviews": 57,
+            "average_score": 4.964912280701754
+        },
+        {
+            "product_id": "B00DG8ZYA4",
+            "num_reviews": 57,
+            "average_score": 4.964912280701754
+        },
+        {
+            "product_id": "B00IA6QWP8",
+            "num_reviews": 106,
+            "average_score": 4.962264150943396
+        },
+        {
+            "product_id": "B00FA2B9S0",
+            "num_reviews": 50,
+            "average_score": 4.96
+        },
+        {
+            "product_id": "B00IH487I8",
+            "num_reviews": 49,
+            "average_score": 4.959183673469388
+        },
+        {
+            "product_id": "B00HLX9Z3C",
+            "num_reviews": 71,
+            "average_score": 4.957746478873239
+        },
+        {
+            "product_id": "B006C25GGI",
+            "num_reviews": 47,
+            "average_score": 4.957446808510638
+        },
+        {
+            "product_id": "B00LKS5WUY",
+            "num_reviews": 46,
+            "average_score": 4.956521739130435
+        },
+        {
+            "product_id": "B00FQWR07S",
+            "num_reviews": 46,
+            "average_score": 4.956521739130435
+        },
+        {
+            "product_id": "B00LLWDUDK",
+            "num_reviews": 89,
+            "average_score": 4.955056179775281
+        },
+        {
+            "product_id": "B00GM4N3MU",
+            "num_reviews": 64,
+            "average_score": 4.953125
+        }
+    ]
+}
