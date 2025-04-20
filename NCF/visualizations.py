@@ -73,7 +73,7 @@ def plot_error_distribution(model, test_loader, save_path=None):
     errors = np.array(all_actuals) - np.array(all_predictions)
     
     # Create figure with two subplots
-    plt.figure(figsize=(15, 5))
+    plt.figure(figsize=(10, 6))
     
     # Subplot 1: Histogram
     plt.subplot(1, 2, 1)
@@ -81,12 +81,6 @@ def plot_error_distribution(model, test_loader, save_path=None):
     plt.title('Error Distribution (Histogram)')
     plt.xlabel('Error (Actual - Predicted)')
     plt.ylabel('Density')
-    
-    # Subplot 2: Box plot
-    plt.subplot(1, 2, 2)
-    plt.boxplot(errors, vert=False)
-    plt.title('Error Distribution (Box Plot)')
-    plt.xlabel('Error (Actual - Predicted)')
     
     # Add statistics as text
     stats_text = f"""
