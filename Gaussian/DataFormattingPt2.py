@@ -7,9 +7,12 @@ def parse(path):
   for l in g:
     yield eval(l)
 
+
 products = parse('meta_Kindle_Store.json.gz')
 with open('reviews_sorted.json', 'r') as file:
     user_reviews = json.load(file)
+
+# Makes a list of books reviewed in the user reviews
 reviewed_books = []
 count = 0
 for reviewer in user_reviews:
@@ -18,28 +21,8 @@ for reviewer in user_reviews:
             reviewed_books.append(review['asin'])
         count += 1
         print(count)
-print(len(reviewed_books))
 
-# with open("training_books.json", 'w') as file:
-#     for item in reviewed_books:
-#         file.write(str(item) + '\n')
-
-# reviewed_books = []
-# with open('reviewed_books', 'r') as file:
-#     for line in file:
-#         # Remove newline characters and any extra whitespace
-#         item = line.strip()
-#         # Attempt to convert to int, float, or keep as string
-#         try:
-#             item = int(item)
-#         except ValueError:
-#             try:
-#                 item = float(item)
-#             except ValueError:
-#                 pass  # Keep as string
-#         reviewed_books.append(item)
-
-
+# Accumulates book data for each reviewed book
 reviewed_products = {}
 count2 = 0
 for product in products:
@@ -50,7 +33,7 @@ for product in products:
         if 'price' in product:
             reviewed_products[product['asin']]['Price'] = product['price']
 
-
+# Creates the user statistics table based off the book data for all the books each user reviewed and then stores the data in a json
 results = {}
 count3 = 0
 for reviewer in user_reviews:

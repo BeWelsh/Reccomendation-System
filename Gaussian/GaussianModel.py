@@ -2,14 +2,13 @@ import json
 
 import numpy as np
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 
 with open('review_data.json', 'r') as file:
     data = json.load(file)
 data_array = np.array([list(row.values()) for row in data.values()])
 print(data_array.shape)
-# Manually implement Gaussian Mixture Model using EM
 
+# Helps determine the responsibilities for each datapoint
 def multivariate_gaussian(x, mean, cov):
     d = x.shape[1]
     cov_inv = np.linalg.inv(cov)
@@ -17,6 +16,7 @@ def multivariate_gaussian(x, mean, cov):
     exponent = np.einsum('ij,jk,ik->i', diff, cov_inv, diff)
     return np.exp(-0.5 * exponent) / np.sqrt((2 * np.pi)**d * np.linalg.det(cov))
 
+# Sets random base parameters to start the GMM
 def initialize_parameters(X, n_components):
     n_samples, d = X.shape
     np.random.seed(0)
@@ -25,6 +25,7 @@ def initialize_parameters(X, n_components):
     weights = np.full(n_components, 1 / n_components)
     return means, covariances, weights
 
+# Runs the expectation step which assigns each cluster a responsibility probability for each datapoint
 def expectation(X, means, covariances, weights):
     n_samples = X.shape[0]
     responsibilities = np.zeros((n_samples, len(means)))
@@ -33,6 +34,7 @@ def expectation(X, means, covariances, weights):
     responsibilities /= responsibilities.sum(axis=1, keepdims=True)
     return responsibilities
 
+# Runs the maximization step which reassigns the cluster's weights
 def maximization(X, responsibilities):
     n_samples, d = X.shape
     n_components = responsibilities.shape[1]
@@ -45,6 +47,7 @@ def maximization(X, responsibilities):
     weights = Nk / n_samples
     return means, covariances, weights
 
+# Determines if the cluster's centroids moved or stayed the same
 def compute_log_likelihood(X, means, covariances, weights):
     n_samples = X.shape[0]
     log_likelihood = 0
@@ -55,11 +58,11 @@ def compute_log_likelihood(X, means, covariances, weights):
         log_likelihood += np.log(likelihood + 1e-10)  # add small value to avoid log(0)
     return log_likelihood
 
-def fit_gmm(X, n_components, n_iter=50, tol=1e-4):
+# RUns the GMM by running the expectation step, the maximization step and then checks if the centroids moved to determine if it should iterate again
+def fit_gmm(X, n_components, n_iter=100, tol=1e-4):
     means, covariances, weights = initialize_parameters(X, n_components)
     log_likelihood_prev = None
     for i in range(n_iter):
-        print(i)
         responsibilities = expectation(X, means, covariances, weights)
         means, covariances, weights = maximization(X, responsibilities)
         log_likelihood = compute_log_likelihood(X, means, covariances, weights)
@@ -69,15 +72,17 @@ def fit_gmm(X, n_components, n_iter=50, tol=1e-4):
     return means, covariances, weights, responsibilities
 
 # Fit the manual GMM
-means_est, covs_est, weights_est, resp_est = fit_gmm(data_array, 10)
+means_est, covs_est, weights_est, resp_est = fit_gmm(data_array, 6)
 y_pred = np.argmax(resp_est, axis=1)
 
+# Stores the cluster assignments
 results = [
     {"id": key, "label": int(pred)}
     for key, pred in zip(data.keys(), y_pred)
 ]
 with open("gmm_predictions.json", "w") as file:
   json.dump(results, file, indent=4)
+
 # 3D Plot
 fig = plt.figure(figsize=(10, 8))
 ax = fig.add_subplot(111, projection='3d')
