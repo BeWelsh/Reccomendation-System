@@ -55,7 +55,7 @@ def compute_log_likelihood(X, means, covariances, weights):
         log_likelihood += np.log(likelihood + 1e-10)  # add small value to avoid log(0)
     return log_likelihood
 
-def fit_gmm(X, n_components, n_iter=100, tol=1e-4):
+def fit_gmm(X, n_components, n_iter=50, tol=1e-4):
     means, covariances, weights = initialize_parameters(X, n_components)
     log_likelihood_prev = None
     for i in range(n_iter):
@@ -69,7 +69,7 @@ def fit_gmm(X, n_components, n_iter=100, tol=1e-4):
     return means, covariances, weights, responsibilities
 
 # Fit the manual GMM
-means_est, covs_est, weights_est, resp_est = fit_gmm(data_array, 6)
+means_est, covs_est, weights_est, resp_est = fit_gmm(data_array, 10)
 y_pred = np.argmax(resp_est, axis=1)
 
 results = [

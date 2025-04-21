@@ -15,10 +15,18 @@ print(type(test_reviews))
 count = 0
 for r in reviews:
   if r['reviewerID'] not in users_reviews:
-    users_reviews[r['reviewerID']] = []
-    test_reviews[r['reviewerID']] = {'asin':r['asin'], 'overall': r['overall']}
+    if r['overall'] >= 3:
+      test_reviews[r['reviewerID']] = {'asin': r['asin'], 'overall': r['overall']}
+      users_reviews[r['reviewerID']] = []
+
+    else:
+      users_reviews[r['reviewerID']] = [{'asin':r['asin'], 'overall': r['overall']}]
+
   else:
-    users_reviews[r['reviewerID']].append({'asin':r['asin'], 'overall': r['overall']})
+    if r['reviewerID'] not in test_reviews and r['overall'] >= 3:
+      test_reviews[r['reviewerID']] = {'asin': r['asin'], 'overall': r['overall']}
+    else:
+      users_reviews[r['reviewerID']].append({'asin':r['asin'], 'overall': r['overall']})
   count += 1
   print(count)
 

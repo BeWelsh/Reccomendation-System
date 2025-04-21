@@ -7,8 +7,8 @@ reviewer_clusters = pd.read_json('gmm_predictions.json')
 print(reviewer_clusters.keys())
 with open('reviews_sorted', 'r') as file:
     user_reviews = json.load(file)
-cluster_data = {0: {}, 1: {}, 2: {}, 3: {}, 4: {}, 5: {}}
-for cluster_num in range(0, 6):
+cluster_data = {0: {}, 1: {}, 2: {}, 3: {}, 4: {}, 5: {}, 6: {}, 7: {}, 8: {}, 9: {}}
+for cluster_num in range(0, 10):
     cluster_set = {}
     cluster_df = pd.DataFrame(columns=['product_id', 'num_reviews', 'average_score'])
     included_reviewers = reviewer_clusters[reviewer_clusters['label'] == cluster_num]
